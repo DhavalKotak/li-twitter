@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }) => {
 				let username = result.user.displayName.replace(/\s+/g, "")
 				let photoURL = result.user.photoURL
 				let email = result.user.email
-				fetch("http://localhost:3000/api/signup", {
+				fetch("api/signup", {
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
 					body: JSON.stringify({
