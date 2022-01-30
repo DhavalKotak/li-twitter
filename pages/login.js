@@ -15,7 +15,14 @@ const Login = () => {
 			</Head>
 			<Container>
 				<Grid container alignItems="stretch" sx={{ height: "100vh" }}>
-					<Grid item container xs={6} alignItems="center">
+					<Grid
+						item
+						container
+						xs={10}
+						sm={10}
+						md={6}
+						alignItems="center"
+					>
 						<Grid item>
 							<h2
 								style={{
