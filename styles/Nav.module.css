@@ -1,0 +1,21 @@
+.nav_buttons {
+	width: 200px;
+	border-radius: 15px;
+	color: #fafafa;
+}
+.nav_buttons:hover {
+	background: #4c7aff;
+}
+.avatar {
+	background: rgba(0, 0, 0, 0);
+}
+.list {
+	position: sticky;
+	width: 100%;
+	max-width: 360px;
+}
+@media screen and (max-width: 899px) {
+	.list_item_text {
+		display: none;
+	}
+}

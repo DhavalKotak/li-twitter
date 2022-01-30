@@ -1,0 +1,25 @@
+.tweet_card {
+	border: 5px solid #1976d2;
+	max-width: 700px;
+	margin-top: 30px;
+	background-color: #1e1e1e;
+	color: #fff;
+}
+.tweet_content {
+	color: #fff;
+}
+.tweet_date,
+.tweet_author {
+	text-align: end;
+	font-size: x-small;
+	color: #a2a2a2;
+}
+.author {
+	color: #4c7aff;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+.image {
+	border-radius: 50%;
+}

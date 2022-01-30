@@ -1,0 +1,17 @@
+.auth_btn {
+	border-radius: 15px;
+	font-weight: bold;
+	height: 50px;
+	margin-top: 10px;
+}
+.small {
+	color: darkgray;
+}
+.signin_head {
+	color: #fafafa;
+}
+@media screen and (max-width: 899px) {
+	.banner {
+		display: none;
+	}
+}

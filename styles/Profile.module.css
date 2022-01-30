@@ -1,0 +1,16 @@
+.value {
+	vertical-align: center;
+	background-color: #1e1e1e;
+	width: 80%;
+	padding: 15px;
+	border-radius: 5px;
+}
+.image {
+	border-radius: 50%;
+}
+@media screen and (max-width: 1199px) {
+	.profileGrid {
+		flex-direction: column-reverse;
+		margin-top: 30px;
+	}
+}
